@@ -1,5 +1,10 @@
 # meet
 
+HOW THIS APP WILL USE SERVERLESS FUNCTIONS:
+
+This app will use serverless functions (AWS Lambda) for the authorization server in order to access the Google Calendar API through OAuth2 in order to fetch data about upcoming events. 
+
+
 FEATURE 1: FILTER EVENTS BY CITY
 
 User story: As a user I should be able to filter events by city so that I can see the list of
