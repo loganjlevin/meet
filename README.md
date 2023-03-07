@@ -66,7 +66,10 @@ When: the user is on the main page
 
 Then: the user should not see the event’s details
 
-FEATURE 3: SPECIFY THE NUMBER OF EVENTS
+# <<<<<<< HEAD
+
+> > > > > > > e6a2ae69f528f49abf057fac1238f76e5c7fac30
+> > > > > > > FEATURE 3: SPECIFY THE NUMBER OF EVENTS
 
 User story: As a user I should be able to specify the number of events shown so that I
 can see however many events I want at one time.
@@ -88,7 +91,10 @@ events listed’ input box
 
 Then: the user should see the specified number of events in the list
 
-FEATURE 4: USE THE APP WHEN OFFLINE
+# <<<<<<< HEAD
+
+> > > > > > > e6a2ae69f528f49abf057fac1238f76e5c7fac30
+> > > > > > > FEATURE 4: USE THE APP WHEN OFFLINE
 
 Scenario 1: Show cached data when there’s no internet connection
 
@@ -107,7 +113,10 @@ When: the user searches for data that has not been cached
 
 Then: the user should see an error showing that there is not internet connection
 
-FEATURE 5: DATA VISUALIZATION
+# <<<<<<< HEAD
+
+> > > > > > > e6a2ae69f528f49abf057fac1238f76e5c7fac30
+> > > > > > > FEATURE 5: DATA VISUALIZATION
 
 Scenario 1: Show a chart with the number of upcoming events in each city
 
