@@ -88,4 +88,12 @@ describe('<App /> integration', () => {
     expect(AppWrapper.state('numberOfEvents')).toBe(24);
     AppWrapper.unmount();
   });
+
+  test('render number of events equal to "number of events" state', async () => {
+    const AppWrapper = mount(<App />);
+    const numEvents = AppWrapper.state('numberOfEvents');
+    await AppWrapper.setState({ events: mockData });
+    expect(AppWrapper.find('.EventList li')).toHaveLength(numEvents);
+    AppWrapper.unmount();
+  });
 });
