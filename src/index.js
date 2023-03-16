@@ -5,6 +5,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import * as atatus from 'atatus-spa';
+
+atatus.config('24f83e0aacca4306983f8e19bbf1340e').install();
 
 const root = document.getElementById('root');
 render(
